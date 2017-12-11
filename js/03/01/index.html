@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Расчет количества максимальных чисел</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form>
+            <label>
+                Введите значение последовательности из пяти чисел<br />
+                <input type="text" name="x1" placeholder="первое значение"><br />
+                <input type="text" name="x2" placeholder="второе значение"><br />
+                <input type="text" name="x3" placeholder="третье значение"><br />
+                <input type="text" name="x4" placeholder="четвертое значение"><br />
+                <input type="text" name="x5" placeholder="пятое значение"><br />
+            </label>
+        </form>
+        <p id="result-placeholder" style="display:none">
+            Количество максимальных значений
+                <span id="max-placeholder"></span>
+            из последовательности
+                (<span id="x1-placeholder"></span>,
+                 <span id="x2-placeholder"></span>,
+                 <span id="x3-placeholder"></span>,
+                 <span id="x4-placeholder"></span>,
+                 <span id="x5-placeholder"></span>)
+            равно
+                <span id="max-count-placeholder"></span>
+        </p>
+        <p id="error-placeholder" style="display:none">Все элементы последовательности должны быть числами</p>
+    </body>
+</html>
+

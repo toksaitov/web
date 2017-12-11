@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Калькулятор площади треугольника</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form>
+            <label>
+                Введите координаты точек треугольника в пространстве<br />
+                <input type="text" name="x1" placeholder="значение x первой точки">
+                <input type="text" name="y1" placeholder="значение y первой точки"><br />
+                <input type="text" name="x2" placeholder="значение x второй точки">
+                <input type="text" name="y2" placeholder="значение y второй точки"><br />
+                <input type="text" name="x3" placeholder="значение x третьей точки">
+                <input type="text" name="y3" placeholder="значение y третьей точки">
+            </label>
+        </form>
+        <p id="result-placeholder" style="display:none">
+            Площадь треугольника с точками
+                (<span id="x1-placeholder"></span>, <span id="y1-placeholder"></span>),
+                (<span id="x2-placeholder"></span>, <span id="y2-placeholder"></span>),
+                (<span id="x3-placeholder"></span>, <span id="y3-placeholder"></span>)
+            равна
+                <span id="area-placeholder"></span>
+        </p>
+        <p id="error-placeholder" style="display:none">Неверное значение точек треугольника</p>
+    </body>
+</html>
+

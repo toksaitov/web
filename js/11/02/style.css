@@ -1,0 +1,16 @@
+body {
+    font-size:large;
+}
+
+input[type="text"] {
+    margin-left:5pt;
+    width:350pt;
+}
+
+#error-placeholder {
+    color:red;
+}
+
+#result-placeholder {
+
+}
